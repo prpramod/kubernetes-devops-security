@@ -30,7 +30,7 @@ pipeline {
         }
       }
     }
-
+    
     stage('SonarQube - SAST') {
       steps {
         withSonarQubeEnv('SonarQubeServer') {
